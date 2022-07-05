@@ -1,0 +1,14 @@
+.footer {
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    left: 0;
+    bottom: 0;
+}
+
+.link:hover {
+    color: #6A5ACD;
+    text-decoration: none;
+}
