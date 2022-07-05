@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* overflow: hidden; */
-  background-color: rgb(0, 0, 0);
+  background-color: #000;
   scroll-behavior: smooth;
 }
 
@@ -28,20 +28,12 @@ code {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-image: -webkit-gradient(linear,
-                   left bottom,
-                   left top,
-                   color-stop(0.85, rgb(28,58,168)),
-                   color-stop(0.55, rgb(0, 71, 146)),
-                   color-stop(0.30, rgb(118, 171, 223)));
+  background-image: -webkit-gradient(linear, left bottom, left top,
+                  color-stop(0.85, #1c3aa8), color-stop(0.55, #004792), color-stop(0.30, #76abdf));
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-image: -webkit-gradient(linear,
-                   left bottom,
-                   left top,
-                   color-stop(0.85, rgb(28,58,168)),
-                   color-stop(0.55, rgb(50, 91, 196)),
-                   color-stop(0.30, rgb(168, 191, 243)));
+  background-image: -webkit-gradient(linear, left bottom, left top,
+                   color-stop(0.85, #1c3aa8), color-stop(0.55, #325bc4), color-stop(0.30, #a8bff3));
 }

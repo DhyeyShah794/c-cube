@@ -10,14 +10,7 @@
     backdrop-filter: blur(20px);
     z-index: 9;
   }
-  /* .container {
-    width: 100%;
-    min-height: 100vh;
-    padding-right: 8%;
-    padding-left: 8%;
-    box-sizing: border-box;
-    overflow: hidden;
-  } */
+
   .logo {
     position: fixed;
     top: 0px;
@@ -45,7 +38,6 @@
   .nav ul li {
     display: inline-block;
     margin-left: 30px;
-    /* margin: 15px; */
   }
   
   .nav ul li:hover{
@@ -62,7 +54,7 @@
   
   .nav ul li a:hover {
     text-decoration-line: underline;
-    text-decoration-color: #fff;
+    text-decoration-color: #6A5ACD;
     text-underline-offset: 5px;
   }
   
@@ -89,28 +81,3 @@
   .change .bar3 {
     transform: translate(0%, -250%) rotate(45deg);
   }
-  
-  /* .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  } */
-  
-/*   
-  .new-nav {
-    display: none;
-    transition: 0.5s;
-  }
-  .new-nav ul li {
-    display: list-item;
-    margin: 15px;
-  }
-  .new-nav ul li a {
-    color: antiquewhite;
-    font-style: normal;
-    text-decoration: none;
-  }
-  
-  .new-nav ul li a:hover {
-    color: rgb(255, 140, 0);
-  } */

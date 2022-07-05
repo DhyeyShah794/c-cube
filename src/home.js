@@ -6,7 +6,7 @@ const Home = () => {
         <div className="landing-page-content">
             <div className="box">
                 <div className="glow">
-                <h2 className="heading"><strong>C-CUBE</strong></h2>
+                <h2 className="heading"><strong>C-Cube</strong></h2>
                 <h3 className="tagline"><i>"Holistic development of youth lies in their<br></br>intellectual,
                     mental and spiritual growth."</i></h3>
                 </div>

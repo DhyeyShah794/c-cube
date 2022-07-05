@@ -21,11 +21,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 85%;
-    /* height: 18rem; */
     border-radius: 12px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .01);
     transform: scale(0.9);
-    background: linear-gradient(to left,
+    /* background: linear-gradient(to left,
             #ff5770,
             #e4428d,
             #c42da8,
@@ -34,12 +33,14 @@ body {
             #9e16c3,
             #c42da8,
             #e4428d,
-            #ff5770);
+            #ff5770); */
+            background-color: #537895;
+background-image: linear-gradient(320deg, #4b0082 82.5%, #9370db 0%);
     background-size: 200% 200%;
     animation: animateGlow 1.25s linear infinite;
 }
 
-@keyframes animateGlow {
+/* @keyframes animateGlow {
     0% {
         background-position: 0% 50%;
     }
@@ -47,14 +48,19 @@ body {
     100% {
         background-position: 200% 50%;
     }
-}
+} */
 
 .heading {
     font-size: 70px;
+    /* font-family: ROGFonts-Regular; */
+    /* font-family: 'ROG Fonts Regular';
+    src: url('./fonts/ROGFonts-Regular.otf');     */
+    /* font-family: Cambria*/
     padding: 25px;
     padding-bottom: 0;
-    margin-left: 4rem;
-    color: #012169;
+    margin-left: 2rem;
+    /* color: #012169; */
+    color: #09203f;
 }
 
 .tagline {
