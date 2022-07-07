@@ -1,8 +1,12 @@
 import React from 'react';
 import './home.css';
+import Nav from './navbar';
+import Footer from './footer';
 
 const Home = () => {
     return (
+        <div className="home">
+        <Nav />
         <div className="landing-page-content">
             <div className="box">
                 <div className="glow">
@@ -23,6 +27,8 @@ const Home = () => {
             So, to engage students properly so that they can acquire the right skills for their bright future, C-CUBE has arranged many workshops to give Software Training. As pandemic lockdown was going on, many students were feeling lonely and distressed. We found out that there is damn for developing inner personality of a person. So, we conducted many Personality Development workshops for students.
             </pre>
         </div>
+        <Footer />
+    </div>
     );
 }
 

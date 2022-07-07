@@ -6,13 +6,15 @@ import Nav from './navbar';
 import Home from './home';
 import Footer from './footer';
 import About from './about';
+import Main from './main';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Nav />
+    <Main />
+    {/* <Nav />
     <Home />
-    <Footer />
+    <Footer /> */}
   </React.StrictMode>
 );
 

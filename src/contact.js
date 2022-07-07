@@ -1,16 +1,16 @@
 import React from 'react';
-import './donate.css';
+import './contact.css';
 import Nav from './navbar';
 import Footer from './footer';
 
-const Donate = () => {
+const Contact = () => {
     return (
-        <div className="donate">
+        <div className="contact">
             <Nav />
-            <h1 className="dtitle">Donate</h1>
+            <h1 className="ctitle">Contact</h1>
             <Footer />
         </div>
     );
 }
 
-export default Donate;
+export default Contact;

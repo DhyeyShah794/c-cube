@@ -1,13 +1,31 @@
 import React from 'react';
-import Home from './home';
 import Nav from './navbar';
+import Home from './home';
 import About from './about';
-import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+import Donate from './donate';
+import Contact from './contact';
+import Events from './events';
+import Login from './login';
+import { BrowserRouter as Router, Route, Navigate, Routes } from 'react-router-dom';
 
 const Main = () => {
     // const [color, changeColor] = useState('#12afed')
     return (
         <Router>
+            <div>
+                <Routes>
+                <Route exact path = "/" element = {<Home />} />
+                <Route exact path = "/about" element = {<About />} />
+                <Route exact path = "/donate" element = {<Donate />} />
+                <Route exact path = "events" element = {<Events />} />
+                <Route exact path = "/contact" element = {<Contact />} />
+                <Route exact path = "/login" element = {<Login />} />
+                <Route exact path = "*" element = {<Nav />} />
+                </Routes>
+                
+                {/* <Navigate from = "*" replace = "/" /> */}
+                
+            </div>
         </Router>
     );
 }

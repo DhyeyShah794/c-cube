@@ -1,16 +1,16 @@
 import React from 'react';
-import './donate.css';
+import './login.css';
 import Nav from './navbar';
 import Footer from './footer';
 
-const Donate = () => {
+const Login = () => {
     return (
-        <div className="donate">
+        <div className="login">
             <Nav />
-            <h1 className="dtitle">Donate</h1>
+            <h1 className="ltitle">Login</h1>
             <Footer />
         </div>
     );
 }
 
-export default Donate;
+export default Login;
