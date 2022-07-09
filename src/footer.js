@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './footer.css';
 
 const Footer = () => {
@@ -7,21 +8,19 @@ const Footer = () => {
             <footer className="container">
                 <div className="columns">
                     <div className="footer-col">
-                        <h3 className="title">Services</h3>
+                        <h3 className="title">About</h3>
                         <ul className="list">
-                            <li><a href="#" className="link">About us</a></li>
-                            <li><a href="#" className="link">Our services</a></li>
-                            <li><a href="#" className="link">Privacy policy</a></li>
-                            <li><a href="#" className="link">Affiliate program</a></li>
+                            <li><Link to="/" className="link">Homepage</Link></li>
+                            <li><Link to="/about" className="link">About us</Link></li>
+                            <li><Link to="/events" className="link">Past events</Link></li>
                         </ul>
                     </div>
                     <div className="footer-col">
-                        <h3 className="title">About</h3>
+                        <h3 className="title">Contact</h3>
                         <ul className="list">
-                            <li><a href="#" className="link">FAQ</a></li>
-                            <li><a href="#" className="link">Shipping</a></li>
-                            <li><a href="#" className="link">Returns</a></li>
-                            <li><a href="#" className="link">Payment options</a></li>
+                            <li><Link to="/contact" className="link">Contact us</Link></li>
+                            <li><Link to="/contact" className="link">Get in touch</Link></li>
+                            <li><Link to="/donate" className="link">Donation</Link></li>
                         </ul>
                     </div>
                     <div className="footer-col">
@@ -33,7 +32,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="copyright"><p> © 2022</p></div>
+                {/* <div className="copyright"><p> © 2022</p></div> */}
             </footer>
         </div>
     );

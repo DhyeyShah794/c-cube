@@ -18,12 +18,13 @@ body {
 }
 
 .glow {
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-    border-radius: 12px;
+    margin: auto;
+    width: 80%;
+    /* padding: 10px; */
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .01);
-    transform: scale(0.9);
+    transform: skew(-8deg);
+    /* transform: scale(0.9); */
+    /* background-color: #546add; */
     /* background: linear-gradient(to left,
             #ff5770,
             #e4428d,
@@ -33,14 +34,17 @@ body {
             #9e16c3,
             #c42da8,
             #e4428d,
-            #ff5770); */
-            background-color: #537895;
-background-image: linear-gradient(320deg, #4b0082 82.5%, #9370db 0%);
-    background-size: 200% 200%;
+            #ff5770);
+            background-color: #537895; */
+    /* background-image: linear-gradient(320deg, #4b0082 82.5%, #9370db 0%);
+    background-size: 200% 200%; */
     animation: animateGlow 1.25s linear infinite;
+    border: 2px solid #546add;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px 5px #546add;
 }
 
-/* @keyframes animateGlow {
+@keyframes animateGlow {
     0% {
         background-position: 0% 50%;
     }
@@ -48,32 +52,33 @@ background-image: linear-gradient(320deg, #4b0082 82.5%, #9370db 0%);
     100% {
         background-position: 200% 50%;
     }
-} */
+}
 
 .heading {
     font-size: 70px;
     padding: 25px;
     padding-bottom: 0;
     margin-left: 2rem;
+    color: #546add;
     /* color: #012169; */
-    color: #09203f;
+    /* color: #09203f; */
 }
 
 .tagline {
     display: flex;
     justify-content: right;
-    margin-right: 4rem;
+    margin: 4rem;
     padding: 25px;
     padding-top: 0;
     font-size: 34px;
-    color: rgb(221, 239, 239);
+    /* color: rgb(221, 239, 239); */
 }
 
 .found-info {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 34px;
-    color: #6A5ACD;
+    color: #546add;
 }
 
 .filled {
@@ -85,7 +90,7 @@ background-image: linear-gradient(320deg, #4b0082 82.5%, #9370db 0%);
     width: 0%;
     height: 2.5px;
     left: 30%;
-    background-color: #6A5ACD;
+    background-color: #546add;
     transition: 0.30s ease-out;
 }
 
@@ -95,22 +100,21 @@ background-image: linear-gradient(320deg, #4b0082 82.5%, #9370db 0%);
     justify-content: center;
     align-items: center;
     width: 40%;
-    background-color: #6A5ACD;
+    background-color: #546add;
     transition: 0.30s ease-out;
 }
 
 .text-info {
     width: 80%;
-    color: #f2f2f2;
     font-size: 1.3rem;
     font-family: 'Manrope'; /* Pre tag uses default font */
-    margin: 20px auto 20px auto;
+    margin: 20px auto -10px auto;
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid #6A5ACD;
     overflow: auto;
     white-space: pre-wrap;
     word-wrap: break-word;
+    border: 2px solid #546add;
 }
 
 * {
@@ -118,50 +122,33 @@ background-image: linear-gradient(320deg, #4b0082 82.5%, #9370db 0%);
 }
 
 
-.marquee {
-    overflow: hidden;
-}
-
-.marquee-content {
-    display: flex;
-    animation: scrolling 25s linear infinite;
-}
-
-.marquee-item {
-    flex: 0 0 16vw;
-    margin: 0 1vw;
-    flex: 0 0 20vw;
-    margin: 0 2vw;
-}
-
-.marquee-item img {
-    display: block;
-    width: 50vh;
-    height: 30vh;
-    padding: 0 20px;
-}
-
-@keyframes scrolling {
-    0% {
-        transform: translateX(0);
+@media screen and (max-width: 600px) {
+    /* .glow {
+        width: 90%;
+        background-image: linear-gradient(0deg, #4b0082 80.5%, #9370db 0%);
+    } */
+    .heading {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 3.2rem;
     }
-
-    100% {
-        transform: translatex(-144vw);
+    .tagline {
+        margin-top: 80px;
+        width: 100%;
+        margin-left: auto;
+        text-align: left;
+        font-size: 1.4rem;
+        word-wrap: break-word;
+        overflow: auto;
     }
-}
-
-.footer {
-    position: relative;
-    margin-top: 40px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: left;
-}
-
-.link:hover {
-    color: #6A5ACD;
-    text-decoration: none;
+    .title:hover .filled {
+        left: 5%;
+        width: 90%;
+    }
+    .found-info {
+        font-size: 1.4rem;
+    }
+    .text-info {
+        font-size: 1.2rem;
+    }
 }

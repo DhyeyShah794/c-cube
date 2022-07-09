@@ -1,10 +1,7 @@
 .navbar {
-    background-color: #000;
-    display: flex;
-    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0);
     position: fixed;
     top: 0;
-
     width: 100%;
     height: auto;
     backdrop-filter: blur(20px);
@@ -16,9 +13,9 @@
     top: 0px;
     z-index: 100;
     margin: 15px;
-    margin-left: 60px;
-    width: 6vw;
-    height: 6vw;
+    /* margin-left: 60px; */
+    width: 5rem;
+    /* height: 60px; */
     cursor: pointer;
   }
   
@@ -42,12 +39,12 @@
   }
 
   .nav ul li a {
-    color: #E6E6FA;
-    font-size: 2rem;
+    color: #fff;
+    font-size: 1.6rem;
     font-style: normal;
     text-decoration: none;
   }
   
   .nav ul li a:hover {
-    color: #6A5ACD;
+    color: #FEBE10;
   }
