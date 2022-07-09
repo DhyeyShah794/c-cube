@@ -37,25 +37,19 @@
   
   .nav ul li {
     display: inline-block;
+    padding: 2.5px;
     margin-left: 30px;
   }
-  
-  .nav ul li:hover{
-    transform: scale(1.05);
-  
-  }
-  
+
   .nav ul li a {
-    color: #6A5ACD;
+    color: #E6E6FA;
     font-size: 2rem;
     font-style: normal;
     text-decoration: none;
   }
   
   .nav ul li a:hover {
-    text-decoration-line: underline;
-    text-decoration-color: #6A5ACD;
-    text-underline-offset: 5px;
+    color: #6A5ACD;
   }
   
   .menu {

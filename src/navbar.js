@@ -5,7 +5,7 @@ import './navbar.css';
 const Nav = () => {
     return (
         <div>
-            <a href="../index.html"><img src={require("./Images/C-Cube.png")} className="logo" /></a>
+            <Link to="/"><img src={require("./Images/C-Cube.png")} className="logo" /></Link>
                 <div className="navbar">
                     <nav className="nav">
                         <ul>
