@@ -5,7 +5,7 @@ import './navbar.css';
 const Nav = () => {
     return (
         <div>
-            <Link to="/"><img src={require("./Images/C-Cube.png")} className="logo" /></Link>
+            <Link to="/"><img src={require("../Images/C-Cube.png")} className="logo" /></Link>
             <div className="navbar">
                 <nav className="nav">
                     <ul>
@@ -14,7 +14,6 @@ const Nav = () => {
                         <li><Link className="Navbar-link" to="/donate">Donate</Link></li>
                         <li><Link className="Navbar-link" to="/contact">Contact</Link></li>
                         <li><Link className="Navbar-link" to="/events">Events</Link></li>
-                        <li><Link className="Navbar-link" to="/login">Login</Link></li>
                     </ul>
                 </nav>
             </div>

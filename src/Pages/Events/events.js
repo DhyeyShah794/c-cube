@@ -1,7 +1,8 @@
 import React from 'react';
+import Nav from '../../Components/Navbar/navbar';
+import Footer from '../../Components/Footer/footer';
 import './events.css';
-import Nav from './navbar';
-import Footer from './footer';
+
 
 const Events = () => {
     return (
@@ -11,75 +12,75 @@ const Events = () => {
                 <div className="marquee-content">
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image1.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image1.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image2.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image2.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image3.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image3.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image4.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image4.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image5.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image5.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image6.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image6.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image1.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image1.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image2.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image2.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image3.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image3.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image4.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image4.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image5.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image5.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image6.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image6.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image1.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image1.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image2.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image2.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image3.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image3.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image4.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image4.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image5.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image5.jpg")} alt="" />
                     </div>
 
                     <div className="marquee-item">
-                        <img src={require("./Images/image6.jpg")} alt="" />
+                        <img src={require("../../Components/Images/image6.jpg")} alt="" />
                     </div>
 
                 </div>

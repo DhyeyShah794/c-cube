@@ -1,7 +1,8 @@
 import React from 'react';
+import Nav from '../../Components/Navbar/navbar';
+import Footer from '../../Components/Footer/footer';
 import './contact.css';
-import Nav from './navbar';
-import Footer from './footer';
+
 
 const Contact = () => {
     return (

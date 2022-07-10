@@ -1,11 +1,10 @@
 import React from 'react';
-import Nav from './navbar';
-import Home from './home';
-import About from './about';
-import Donate from './donate';
-import Contact from './contact';
-import Events from './events';
-import Login from './login';
+import Nav from '../../Components/Navbar/navbar';
+import Home from '../Home/home';
+import About from '../About/about';
+import Donate from '../Donate/donate';
+import Contact from '../Contact/contact';
+import Events from '../Events/events';
 import { BrowserRouter as Router, Route, Navigate, Routes } from 'react-router-dom';
 
 const App = () => {
@@ -18,7 +17,6 @@ const App = () => {
                 <Route exact path = "/donate" element = {<Donate />} />
                 <Route exact path = "events" element = {<Events />} />
                 <Route exact path = "/contact" element = {<Contact />} />
-                <Route exact path = "/login" element = {<Login />} />
                 <Route exact path = "*" element = {<Nav />} />
                 </Routes>
                 

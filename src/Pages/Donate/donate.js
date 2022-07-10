@@ -1,7 +1,8 @@
 import React from 'react';
+import Nav from '../../Components/Navbar/navbar';
+import Footer from '../../Components/Footer/footer';
 import './donate.css';
-import Nav from './navbar';
-import Footer from './footer';
+
 
 const Donate = () => {
     return (
@@ -41,7 +42,7 @@ const Donate = () => {
             </div>
             <br />
             <div class="img-container">
-                <img src={require("./Images/image2.jpg")} alt="Image1" class="image" id="img1"></img>
+                <img src={require("../../Components/Images/image2.jpg")} alt="Image1" class="image" id="img1"></img>
             </div>
 
             {/* </div > */}
