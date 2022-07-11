@@ -1,15 +1,13 @@
 .contact>h1 {
     position: relative;
     text-align: center;
-    /* display: flex; */
-    /* justify-content: center; */
     margin-top: 120px;
     font-size: 2.6rem;
     font-weight: bold;
     margin-bottom: 0.5em;
 }
 
-.contact-form {
+.contact-table {
     position: relative;
     display: flex;
     justify-content: center;
@@ -23,7 +21,7 @@
     box-shadow: 0px 0px 30px 5px #546add;
 }
 
-.contact-form:hover {
+.contact-table:hover {
     box-shadow: 0px 0px 30px 5px #FEBE10;
 }
 
@@ -33,7 +31,7 @@
     text-align: left;
 }
 
-.response {
+.response, .PhoneInputInput{
     display: flex;
     justify-content: left;
     width: 100%;
@@ -55,7 +53,7 @@ option[value="no"] {
 }
 
 
-#sendbtn {
+#send-btn {
     position: relative;
     display: flex;
     justify-content: center;
@@ -71,7 +69,7 @@ option[value="no"] {
     cursor: pointer;
 }
 
-#sendbtn:hover {
+#send-btn:hover {
     border: 2px solid crimson;
     /* transform: scale(1.05); */
 }
