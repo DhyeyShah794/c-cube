@@ -8,34 +8,30 @@ body {
 .landing-page-content {
     margin-top: 10rem;
     margin-bottom: 7rem;
-
 }
 
 .title {
+    margin-top: 300px;
     margin-left: 60px;
 }
 
 .heading {
     text-align: left;
-    padding: 25px;
-    padding-bottom: 0;
     color: #546add !important;
     font-size: 6.5rem;
     font-weight: 600;
 }
 
 .tagline {
-    margin: 5rem 0 10.5rem 0;
-    padding: 25px;
-    padding-top: 0;
+    margin: 0 0 12rem 0;
     text-align: left;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 .found-info {
     text-align: center;
-    font-size: 2.5rem;
-    color: #546add !important;
+    font-size: 2rem;
+    color: #3366cc !important;
 }
 
 .filled {
@@ -57,13 +53,13 @@ body {
     justify-content: center;
     align-items: center;
     width: 40%;
-    background-color: #546add;
+    background-color: #3366cc;
     transition: 0.30s ease-out;
 }
 
 .text-info {
-    width: 80%;
-    font-size: 1.3rem;
+    width: 70%;
+    font-size: 1.1rem;
     font-family: 'Manrope'; /* Pre tag uses default font */
     margin: 20px auto -10px auto;
     padding: 20px;
@@ -72,7 +68,7 @@ body {
     color: white !important;
     white-space: pre-wrap;
     word-wrap: break-word;
-    border: 2px solid #546add;
+    border: 1.5px solid #3366cc;
 }
 
 * {
@@ -82,14 +78,19 @@ body {
 
 @media screen and (max-width: 600px) {
     .landing-page-content {
-        margin-top: 3.5rem;
-        margin-bottom: 6rem;
+        margin: 0;
     }
+
+    .title {
+        margin-top: 300px;
+        margin-left: 0px;
+    }
+
     .heading {
-        /* width: 100%; */
-        margin: 0 auto;
+        width: 100%;
         margin-bottom: 0;
-        font-size: 3.2rem;
+        font-size: 5rem;
+        text-align: center;
         /* padding */
     }
     .tagline {
@@ -97,7 +98,7 @@ body {
         text-align: center;
         font-size: 1.4rem;
         margin-top: 2rem;
-        margin-bottom: 1rem;
+        padding: 60px;
     }
     .box:hover .filled {
         left: 13%;

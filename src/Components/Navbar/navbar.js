@@ -10,7 +10,7 @@ const NavigationBar = () => {
         <Container className="nav-container">
             <Navbar className="nav-bar" bg="nav-bar" variant="dark" fixed="top" expand="sm" collapseOnSelect>
                 <Navbar.Brand className="nav-brand">
-                    <img className="logo" src={require("../Images/C-Cube.png")} />
+                    <img className="logo" src={require("../Images/C-Cube.png")} alt="C-cube" />
                 </Navbar.Brand>
 
                 <Navbar.Toggle className="nav-toggle" aria-controls="basic-navbar-nav" />

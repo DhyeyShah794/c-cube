@@ -25,14 +25,14 @@
 
 .logo {
   z-index: 100;
-  width: 5rem;
+  width: 5.5rem;
   cursor: pointer;
   margin-left: 60px;
   padding: 0 !important;
 }
 
 .nav-link {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #fff !important;
   padding-right: 15px !important;
@@ -41,7 +41,7 @@
 }
 
 .nav-link:hover {
-  color: #FEBE10 !important;
+  color: #3366cc !important;
   /* color: #546add !important; */
 }
 
