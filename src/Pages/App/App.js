@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from '../../Components/Navbar/navbar';
+import NavigationBar from '../../Components/Navbar/navbar';
 import Home from '../Home/home';
 import About from '../About/about';
 import Donate from '../Donate/donate';
@@ -17,7 +17,7 @@ const App = () => {
                 <Route exact path = "/donate" element = {<Donate />} />
                 <Route exact path = "events" element = {<Events />} />
                 <Route exact path = "/contact" element = {<Contact />} />
-                <Route exact path = "*" element = {<Nav />} />
+                <Route exact path = "*" element = {<NavigationBar />} />
                 </Routes>
                 
                 {/* <Navigate from = "*" replace = {true} /> */}

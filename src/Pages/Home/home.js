@@ -9,15 +9,13 @@ const Home = () => {
         <div className="home">
         <Nav />
         <div className="landing-page-content">
-            <div className="box">
-                <div className="glow">
+            <div className="title">
                 <h2 className="heading"><strong>C-Cube</strong></h2>
-                <h3 className="tagline"><i>"Holistic development of youth lies in their<br></br>intellectual,
-                    mental and spiritual growth."</i></h3>
-                </div>
+                <h3 className="tagline">"Holistic development of youth lies in their<br></br>intellectual,
+                    mental and spiritual growth."</h3>
             </div>
 
-            <div className="title">
+            <div className="box">
                 <h3 className="found-info">What is this foundation about?</h3>
                     <div className="filled"></div>
             </div>
