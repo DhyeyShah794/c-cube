@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@300&display=swap");
+
 body {
   margin: 0;
   font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -8,7 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #000; */
   background-color: #130f40;
-background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
   color: #f5ebeb !important;
   scroll-behavior: smooth;
 }
@@ -19,28 +20,14 @@ code {
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0); 
+  background: rgba(0, 0, 0, 0);
 }
- 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: #ffcfdf;
-background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
-  
-  /* background-image: -webkit-gradient(linear, left bottom, left top,
-                  color-stop(0.85, #1c3aa8), color-stop(0.55, #004792), color-stop(0.30, #76abdf)); */
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background-color: #6b0f1a;
-background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
-  /* background-image: -webkit-gradient(linear, left bottom, left top,
-                   color-stop(0.85, #1c3aa8), color-stop(0.55, #325bc4), color-stop(0.30, #a8bff3)); */
+  background-color: #3366cc;
 }
