@@ -24,10 +24,12 @@
 }
 
 .logo {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
   z-index: 100;
   width: 5.5rem;
   cursor: pointer;
-  margin-left: 60px;
   padding: 0 !important;
 }
 
@@ -42,7 +44,6 @@
 
 .nav-link:hover {
   color: #3366cc !important;
-  /* color: #546add !important; */
 }
 
 @media screen and (max-width: 600px) {
@@ -59,11 +60,17 @@
   }
 
   .logo {
-    z-index: 100;
+    position: fixed;
+    top: 1rem;
     width: 3.5rem;
-    cursor: pointer;
-    margin-left: 15px;
     padding: 0 !important;
+  }
+
+  .nav-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: #fff;
   }
 
   .nav {
@@ -84,5 +91,4 @@
     text-decoration: none;
     transition: 0.15s;
   }
-
 }

@@ -38,10 +38,6 @@
     border-radius: 10px;
 }
 
-/* .PhoneInput {
-    width: 100%;
-} */
-
 .send-btn {
     display: flex;
     justify-content: center;
@@ -49,7 +45,6 @@
     margin: 30px auto;
     width: 7rem;
     height: 2.6rem;
-    /* background-color: rgba(0, 0, 0, 0); */
     border: 2.5px solid white;
     border-radius: 10px;
     font-size: 1.6rem;
