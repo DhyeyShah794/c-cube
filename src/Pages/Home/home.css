@@ -34,20 +34,40 @@ body {
     align-items: center;
 }
 
-.circle-1, .circle-2, .circle-3 {
+.circle-1,
+.circle-2,
+.circle-3 {
     width: 24vw;
     height: 24vw;
     border-radius: 50%;
     margin: 0 2.5rem;
+    box-shadow: 0 0 0.9rem 0.35rem #1877F2;
+    animation: glow 2s infinite alternate;
 }
 
-.circle-1 {
+@keyframes glow {
+    from {
+        box-shadow: 0 0 0.8rem 0.3rem #1877F2;
+    }
+
+    to {
+        box-shadow: 0 0 1rem 0.5rem #1877F2;
+    }
+}
+
+.circle-1:hover,
+.circle-2:hover,
+.circle-3:hover {
+    /* transform: scale(1.05); */
+}
+
+/* .circle-1 {
     box-shadow: 0 0 0.9rem 0.35rem #1877F2;
 }
 
 .circle-2 {
     box-shadow: 0 0 0.9rem 0.35rem #1877F2;
-}
+} */
 
 .bottom-circle {
     display: flex;
@@ -56,13 +76,16 @@ body {
     margin-bottom: 8rem;
 }
 
-.circle-3 {
+/* .circle-3 {
     box-shadow: 0 0 0.9rem 0.35rem #1877F2;
 
-}
+} */
 
-.circle-1>p, .circle-2>p, .circle-3>p {
-    line-height: 24vw; /* Value should be equal to height of div to align vertically, works for single line of text only*/
+.circle-1>p,
+.circle-2>p,
+.circle-3>p {
+    line-height: 24vw;
+    /* Value should be equal to height of div to align vertically, works for single line of text only*/
     text-align: center;
     font-size: 2.8rem;
     font-weight: 600;
@@ -151,21 +174,25 @@ body {
         margin-top: -5rem;
     }
 
-    .circle-1, .circle-2, .circle-3 {
+    .circle-1,
+    .circle-2,
+    .circle-3 {
         width: 40vw;
         height: 40vw;
         border-radius: 50%;
         margin: 0 1rem;
     }
 
-    .circle-1>p, .circle-2>p, .circle-3>p {
+    .circle-1>p,
+    .circle-2>p,
+    .circle-3>p {
         line-height: 40vw;
         font-size: 1.35rem;
     }
 
-    .box:hover .filled {
-        left: 7%;
-        width: 86%;
+    .box-1:hover .filled-1 {
+        left: 10%;
+        width: 80%;
     }
 
     .found-info {
