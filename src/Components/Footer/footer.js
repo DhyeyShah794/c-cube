@@ -10,67 +10,43 @@ const Footer = () => {
           <div class="col-sm-12 col-md-6">
             <h6>About</h6>
             <p class="text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+            The main motto of this club is to train today's youths to become great leaders in the future Intellectual education influences the head and value-based education influences the heart. In fact, education that does not train the heart can be dangerous. If we want to build character in our offices, homes and society, we must have the wisdom to live a principle-centered life based on honesty, compassion, courage, responsibility etc.
             </p>
-          </div>
-
-          <div class="col-xs-6 col-md-3">
-            <h6>Services</h6>
-            <ul class="footer-links">
-              <li>
-                <a href="#">C</a>
-              </li>
-              <li>
-                <a href="#">
-                  UI Design
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  PHP
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  Java
-                </a>
-              </li>
-              <li>
-                <a href="#">Android</a>
-              </li>
-              <li>
-                <a href="#">Templates</a>
-              </li>
-            </ul>
           </div>
 
           <div class="col-xs-6 col-md-3">
             <h6>Quick Links</h6>
             <ul class="footer-links">
               <li>
-                <a href="#">About Us</a>
+                <Link to="/about" className="footer-link">About Us</Link>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <Link to="/contact" className="footer-link">
+                  Contact Us</Link>
               </li>
               <li>
-                <a href="#">
-                  Contribute
-                </a>
+                <Link to="/contact" className="footer-link">Contribute</Link>
               </li>
               <li>
-                <a href="#">
-                  Privacy Policy
-                </a>
+                <Link to="/donate" className="footer-link">Donate</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Socials</h6>
+            <ul class="footer-links">
+              <li>
+                <a href="https://www.instagram.com/" className="footer-link" target="_blank" rel="noopener noreferrer">Instagram</a>
               </li>
               <li>
-                <a href="#">Sitemap</a>
+                <a href="https://www.facebook.com/" className="footer-link" target="_blank" rel="noopener noreferrer">Facebook</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" className="footer-link" target="_blank" rel="noopener noreferrer">Twitter</a>
+              </li>
+              <li>
+                <a href="https://linktr.ee/" className="footer-link" target="_blank" rel="noopener noreferrer">Linktree</a>
               </li>
             </ul>
           </div>

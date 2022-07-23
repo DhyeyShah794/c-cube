@@ -52,7 +52,7 @@
     margin-bottom: 2rem;
     width: 0%;
     height: 2.5px;
-    left: 30%;
+    left: 28%;
     background-color: #3457D5;
     transition: 0.30s ease-out;
 }
@@ -62,7 +62,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 44%;
     background-color: #3457D5;
     transition: 0.30s ease-out;
 }
