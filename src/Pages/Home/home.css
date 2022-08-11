@@ -41,25 +41,14 @@ body {
     height: 24vw;
     border-radius: 50%;
     margin: 0 2.5rem;
-    box-shadow: 0 0 0.9rem 0.35rem #1877F2;
-    animation: glow 2s infinite alternate;
+    border: 2px solid #3457D5;
 }
 
-@keyframes glow {
-    from {
-        box-shadow: 0 0 0.8rem 0.3rem #1877F2;
-    }
 
-    to {
-        box-shadow: 0 0 1rem 0.5rem #1877F2;
-    }
-}
-
-.circle-1:hover,
+/* .circle-1:hover,
 .circle-2:hover,
 .circle-3:hover {
-    /* transform: scale(1.05); */
-}
+} */
 
 /* .circle-1 {
     box-shadow: 0 0 0.9rem 0.35rem #1877F2;

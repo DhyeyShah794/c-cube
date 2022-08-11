@@ -48,6 +48,7 @@
 {
   color:#969696;
   text-decoration: none;
+  transition: 0.3s;
 }
 .footer-links .footer-link:active,.footer-links .footer-link:focus,.footer-links .footer-link:hover
 {

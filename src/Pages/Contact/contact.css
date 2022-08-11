@@ -56,6 +56,22 @@
     border: 2.5px solid crimson;
 }
 
+.map-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 12rem;
+}
+
+.map {
+    width: 35rem;
+    height: 25rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 600px) {
     .form {
         width: 90%;
