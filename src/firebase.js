@@ -3,14 +3,13 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBzjWPQkOmWtHC0l6JaTH5eqjSZ81kr-LI",
-    authDomain: "c-cube-32c48.firebaseapp.com",
-    databaseURL: "https://c-cube-32c48-default-rtdb.firebaseio.com",
-    projectId: "c-cube-32c48",
-    storageBucket: "c-cube-32c48.appspot.com",
-    messagingSenderId: "643579987935",
-    appId: "1:643579987935:web:1fb06fbcf2cb5d174a666a",
-    measurementId: "G-Q9TFWKND0P"
+    apiKey: "AIzaSyANFV2jskFDZzz7vYkyjGp4CVWqealnVF8",
+    authDomain: "c-cube-project.firebaseapp.com",
+    projectId: "c-cube-project",
+    storageBucket: "c-cube-project.appspot.com",
+    messagingSenderId: "247239783524",
+    appId: "1:247239783524:web:fcd2dc4fce0cb093049b71",
+    measurementId: "G-D4TMXWKX2H"
 };
 
 // Use this to initialize the firebase App
