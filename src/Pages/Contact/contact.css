@@ -90,4 +90,8 @@
     .send-btn {
         font-size: 1.2rem;
     }
+    .map {
+        width: 20rem;
+        height: 20rem;
+    }
 }

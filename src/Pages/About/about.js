@@ -44,7 +44,7 @@ const About = () => {
             </div>
 
             <div className="info">
-                <ul>
+                <ul className="chairman">
                     <li>Recipient of Institute Silver Medal from IIT Kharagpur</li>
                     <li>Worked as Project Leader at Oracle Bangalore for 6 years</li>
                     <li>Currently pursuing PhD from IIT Bombay</li>
@@ -53,6 +53,25 @@ const About = () => {
                     <li>Adjudged Second Best Student in the Institute across all branches and departments based on merit</li>
                     <li>Won J.C.Ghosh Memorial Prize for being topper</li>
                 </ul>
+            </div>
+            <div className="box-5">
+                <h2 style={{ color: "#3457D5" }}>List of Faculty</h2>
+                <div className="filled-5"></div>
+            </div>
+
+            <div className="info">
+                <ol>
+                    <li>Prof. Kanchan Chowdhury, Dept. of Cryogenics IIT, Kharagpur</li>
+                    <li>Prof. Hari Krishnan, Ph.D, Dept of Civil Engg., NIT, Warrangal</li>
+                    <li>Dr. Hemant R Jadhav, Dept. of Pharmacy, BITS Pilani</li>
+                    <li>Dr. S.H. Hasan, IT BHU, Varanasi</li>
+                    <li>Mr. Bhaskar Garg, IIM, Infosys</li>
+                    <li>Dr. Ganesh Ramakrishnan, Ph.D in Computer science, IBM India Research</li>
+                    <li>Prof SK Sahu, Dept. of Metallurgical Engg., NIT, Rourkela</li>
+                    <li>Mr Anand Patil, Director, R&D, Cognizant</li>
+                    <li>Dr. Rajesh Jalnekar, Dean VIT College, Pune</li>
+                    <li>Mr. Bimal Sud, IIT(KGP), IIM(Kolkatta)</li>
+                </ol>
             </div>
 
 

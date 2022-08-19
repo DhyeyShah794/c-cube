@@ -36,7 +36,7 @@
     gap: 10px;
 }
 
-.box-2>h2, .box-3>h2, .box-4>h2 {
+.box-2>h2, .box-3>h2, .box-4>h2, .box-5>h2 {
     text-align: center;
     width: 70%;
     margin: 4rem auto 0 auto;
@@ -111,7 +111,7 @@
     margin-bottom: 2rem;
     width: 0%;
     height: 2.5px;
-    left: 30%;
+    left: 32%;
     background-color: #3457D5;
     transition: 0.30s ease-out;
 }
@@ -121,7 +121,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 36%;
+    background-color: #3457D5;
+    transition: 0.30s ease-out;
+}
+
+.box-5>h2 {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.filled-5 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 0%;
+    height: 2.5px;
+    left: 41%;
+    background-color: #3457D5;
+    transition: 0.30s ease-out;
+}
+
+.box-5:hover .filled-5 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
     background-color: #3457D5;
     transition: 0.30s ease-out;
 }
@@ -129,6 +157,10 @@
 .chairman-img {
     height: 20rem;
     margin: 3rem auto;
+}
+
+.chairman {
+    gap: 20px;
 }
 
 @media screen and (max-width: 600px) {
