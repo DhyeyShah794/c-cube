@@ -55,14 +55,14 @@ const Donate = () => {
         </p>
       </div>
 
-      <div class="info">
+      <div class="d-info">
         <h2>How to Donate?</h2>
         <p className="d-text">
-          If you want to donate follow the read this before filling the form .
+          If you want to donate, follow these instructions before filling the form.
           <br />
           <br />
           Fill all your specified details in the form and make sure a proper
-          email address is provided and submit it .
+          email address is provided and submit it.
           <br />
           <br />
           You will recieve a mail with a link to pay which would be safe and

@@ -22,7 +22,6 @@ code {
 }
 
 ::-webkit-scrollbar-track {
-  /* background: rgba(0, 0, 0, 0); */
   background-color: #000;
 }
 

@@ -1,4 +1,14 @@
-.events-intro{
+.events-container {
+  margin-top: 10rem;
+}
+
+.events-title {
+    text-align: center;
+    color: #3457D5;
+    font-size: 3rem;
+}
+
+/* .events-intro{
   margin-top: 150px;
   display: flex;
   flex-direction: column;
@@ -13,11 +23,10 @@
 .events-intro-info{
   margin: 20px 120px 0 120px;
   text-align: center;
-}
+} */
 
 @media screen and (max-width: 600px) {
-  .events-intro-info{
-    margin: 0 30px 0 30px;
-    text-align: center;
+  .events-title{
+    margin-top: 6rem;
   }
 }

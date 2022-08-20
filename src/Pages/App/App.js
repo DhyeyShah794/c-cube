@@ -5,7 +5,7 @@ import About from '../About/about';
 import Donate from '../Donate/donate';
 import Contact from '../Contact/contact';
 import Events from '../Events/events';
-import { BrowserRouter as Router, Route, Navigate, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
     return (
@@ -18,10 +18,7 @@ const App = () => {
                 <Route exact path = "events" element = {<Events />} />
                 <Route exact path = "/contact" element = {<Contact />} />
                 <Route exact path = "*" element = {<NavigationBar />} />
-                </Routes>
-                
-                {/* <Navigate from = "*" replace = {true} /> */}
-                
+                </Routes>                
             </div>
         </Router>
     );

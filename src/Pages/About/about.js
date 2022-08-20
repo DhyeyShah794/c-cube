@@ -9,7 +9,7 @@ const About = () => {
         <div className="about">
             <Nav />
             <div className="a-title">
-                <h1><strong>C-Cube</strong></h1>
+                <h1 style={{ marginTop: "10rem" }}><strong>C-Cube</strong></h1>
                 <div className="box-2">
                     <h2>Culture | Character | Competence</h2>
                     <div className="filled-2"></div>
@@ -25,7 +25,7 @@ const About = () => {
             </div>
 
             <div className="info">
-                <ol>
+                <ul className="goals">
                     <li>Training in soft skills</li>
                     <li>Bringing out the potential in the individual</li>
                     <li>Blending Character with Competence in bringing about long-enduring success</li>
@@ -34,8 +34,9 @@ const About = () => {
                     <li>Dealing with sensitivity and self awareness, in thought, word and action</li>
                     <li>Webinars with international faculty for broadening perspectives</li>
                     <li>Organizing outings for experiencing closer touch with nature and marvelous gifts of Supreme Divinity</li>
-                </ol>
+                </ul>
             </div>
+            <hr style={{margin: "0 auto", height: "2px", width: "90%"}}/>
 
             <div className="box-4">
                 <h2 style={{ color: "#3457D5" }}>Chairperson - Mr. Vishal Kaushal</h2>
@@ -54,13 +55,16 @@ const About = () => {
                     <li>Won J.C.Ghosh Memorial Prize for being topper</li>
                 </ul>
             </div>
+
+            <hr style={{margin: "0 auto", height: "2px", width: "90%"}}/>
+
             <div className="box-5">
                 <h2 style={{ color: "#3457D5" }}>List of Faculty</h2>
                 <div className="filled-5"></div>
             </div>
 
-            <div className="info">
-                <ol>
+            <div className="faculty-container">
+                <ul className="faculty">
                     <li>Prof. Kanchan Chowdhury, Dept. of Cryogenics IIT, Kharagpur</li>
                     <li>Prof. Hari Krishnan, Ph.D, Dept of Civil Engg., NIT, Warrangal</li>
                     <li>Dr. Hemant R Jadhav, Dept. of Pharmacy, BITS Pilani</li>
@@ -71,7 +75,7 @@ const About = () => {
                     <li>Mr Anand Patil, Director, R&D, Cognizant</li>
                     <li>Dr. Rajesh Jalnekar, Dean VIT College, Pune</li>
                     <li>Mr. Bimal Sud, IIT(KGP), IIM(Kolkatta)</li>
-                </ol>
+                </ul>
             </div>
 
 
