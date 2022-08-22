@@ -59,12 +59,12 @@ const About = () => {
             <hr style={{margin: "0 auto", height: "2px", width: "90%"}}/>
 
             <div className="box-5">
-                <h2 style={{ color: "#3457D5" }}>List of Faculty</h2>
+                <h2 style={{ color: "#3457D5" }}>Advisory Board</h2>
                 <div className="filled-5"></div>
             </div>
 
-            <div className="faculty-container">
-                <ul className="faculty">
+            <div className="board-container">
+                <ul className="advisory-board">
                     <li>Prof. Kanchan Chowdhury, Dept. of Cryogenics IIT, Kharagpur</li>
                     <li>Prof. Hari Krishnan, Ph.D, Dept of Civil Engg., NIT, Warrangal</li>
                     <li>Dr. Hemant R Jadhav, Dept. of Pharmacy, BITS Pilani</li>

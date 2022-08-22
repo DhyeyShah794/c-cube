@@ -163,14 +163,14 @@
     gap: 0.8rem;
 }
 
-.faculty-container {
+.board-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem;
 }
 
-.faculty {
+.advisory-board {
     list-style: none;
     display: grid;
     gap: 1rem;
