@@ -32,18 +32,27 @@ const Donate = () => {
       <div class="d-info">
         <h2>How to Donate?</h2>
         <p className="d-text">
-          If you want to donate, follow these instructions before filling the form.
+          If you want to donate, take note of the following bank details in order to pay your donation.
           <br />
           <br />
-          Fill all your specified details in the form and make sure a proper
-          email address is provided and submit it.
+          Make sure you pay the amount to the following account as it is the only official account for the club
           <br />
           <br />
-          You will recieve a mail with a link to pay which would be safe and
-          secure to continue the transaction.
+          Once the transaction is done, send a mail to the club secretary with the transaction id and the amount you have donated. This is to ensure that the transaction is successful.
         </p>
       </div>
-      
+      <div className="box-d">
+        <h3 className="details-title">Donation Details</h3>
+        <div className="filled-d"></div>
+      </div>
+      <pre className="bank-info">
+        NAME - VAMSHIVAT VOICE
+        <br /><br />
+        ACCOUNT NUMBER - 739605500093
+        <br /><br />
+        IFSC CODE - ICIC0007396
+      </pre>
+
       <Footer />
     </div>
   );
