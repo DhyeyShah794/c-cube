@@ -1,12 +1,10 @@
 import { React } from "react";
-import Nav from "../../Components/Navbar/navbar";
 import Footer from "../../Components/Footer/footer";
 import "./donate.css";
 
 const Donate = () => {
   return (
     <div className="donate">
-      <Nav />
       <h2 className="d-title">
         <strong>Donation</strong>
       </h2>
@@ -21,15 +19,15 @@ const Donate = () => {
           serve and together we can bring smile on a lot of people's faces.
         </p>
       </div>
-      <div class="img-container">
+      <div className="img-container">
         <img
           src={require("../../Components/Images/image2.jpg")}
           alt="Image1"
-          class="donate-img"
+          className="donate-img"
         ></img>
       </div>
 
-      <div class="d-info">
+      <div className="d-info">
         <h2>How to Donate?</h2>
         <p className="d-text">
           If you want to donate, take note of the following bank details in order to pay your donation.

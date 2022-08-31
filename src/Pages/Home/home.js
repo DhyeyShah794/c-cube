@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from '../../Components/Navbar/navbar';
 import Footer from '../../Components/Footer/footer';
 import './home.css';
 
@@ -7,7 +6,6 @@ import './home.css';
 const Home = () => {
     return (
         <div className="home">
-            <Nav />
             <div className="landing-page-content">
                 <div className="title">
                     <h2 className="heading"><strong>C-Cube</strong></h2>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from '../../Components/Navbar/navbar';
 import Footer from '../../Components/Footer/footer';
 import './about.css';
 
@@ -7,7 +6,6 @@ import './about.css';
 const About = () => {
     return (
         <div className="about">
-            <Nav />
             <div className="a-title">
                 <h1 style={{ marginTop: "10rem" }}><strong>C-Cube</strong></h1>
                 <div className="box-2">

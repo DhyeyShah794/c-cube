@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PostList from '../../Components/PostList/PostList';
-import Nav from '../../Components/Navbar/navbar';
 import Footer from '../../Components/Footer/footer';
 import './events.css';
+import { SyncLoader } from 'react-spinners';
 
 class Events extends Component {
   constructor() {
@@ -22,10 +22,9 @@ class Events extends Component {
   render() {
     const { posts } = this.state;
     return !posts.length ?
-      <h1 style={{ paddingTop: '100px', textAlign: 'center' }}>Loading</h1> :
+      (<div style={{height: "100vh", textAlign: 'center'}}><h1 style={{ paddingTop: '100px'}}>Loading...</h1><br></br><SyncLoader size={20} color="#fff"/></div>) :
       (
-        <div className="events">
-          <Nav />
+        <div className="events">      
           <div className="events-container">
             <h1 className="events-title">Past events</h1>
             <PostList posts={posts} />

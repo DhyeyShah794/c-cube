@@ -5,22 +5,30 @@ import About from '../About/about';
 import Donate from '../Donate/donate';
 import Contact from '../Contact/contact';
 import Events from '../Events/events';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes, Outlet } from 'react-router-dom';
+
+const Layout = ({children}) => {
+    return (
+        <div>
+            <NavigationBar />
+            {children}
+        </div>
+    );
+}
 
 const App = () => {
     return (
-        <Router>
-            <div>
+            <Layout>
                 <Routes>
-                <Route exact path = "/" element = {<Home />} />
-                <Route exact path = "/about" element = {<About />} />
-                <Route exact path = "/donate" element = {<Donate />} />
-                <Route exact path = "events" element = {<Events />} />
-                <Route exact path = "/contact" element = {<Contact />} />
-                <Route exact path = "*" element = {<NavigationBar />} />
-                </Routes>                
-            </div>
-        </Router>
+                <Route path="/" element={<Home />} />
+                <Route path="about" element={<About />} />
+                <Route path="donate" element={<Donate />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="events" element={<Events />} />
+                </Routes>
+            </Layout>
+
+        
     );
 }
 
