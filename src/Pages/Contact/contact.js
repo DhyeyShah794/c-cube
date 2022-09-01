@@ -1,5 +1,4 @@
 import {React, useState} from 'react';
-import Nav from '../../Components/Navbar/navbar';
 import Footer from '../../Components/Footer/footer';
 import { db } from '../../firebase.js';
 import 'react-phone-number-input/style.css'
@@ -46,7 +45,6 @@ const Contact = () => {
 
     return (
         <div className="contact">
-            <Nav />
             <div className="form-container">
                 <form className="form" onSubmit={handleSubmit}>
                     <h1>Contact Us</h1>
