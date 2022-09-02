@@ -7,7 +7,12 @@ import Contact from '../Contact/contact';
 import Events from '../Events/events';
 import { Route, Routes, Outlet } from 'react-router-dom';
 
+/**
+ * Layout is a function that returns a div with a NavigationBar and children.
+ * @returns The children of the Layout component.
+ */
 const Layout = ({children}) => {
+    
     return (
         <div>
             <NavigationBar />
@@ -18,6 +23,9 @@ const Layout = ({children}) => {
 
 const App = () => {
     return (
+            /* Rendering the Home component when the path is "/", the About component when the path is
+            "about", the Donate component when the path is "donate", the Contact component when the
+            path is "contact", and the Events component when the path is "events". */
             <Layout>
                 <Routes>
                 <Route path="/" element={<Home />} />

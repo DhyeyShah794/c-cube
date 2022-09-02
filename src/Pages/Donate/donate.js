@@ -43,6 +43,7 @@ const Donate = () => {
         <h3 className="details-title">Donation Details</h3>
         <div className="filled-d"></div>
       </div>
+      {/* Preformatted text providing bank details of the club */}
       <pre className="bank-info">
         NAME - VAMSHIVAT VOICE
         <br /><br />

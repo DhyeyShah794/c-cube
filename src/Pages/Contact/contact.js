@@ -17,7 +17,7 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setLoader(true);
-
+// Create a reference to the database location where we want to write data
         db.collection('contacts').add({
             name: name,
             phone: phone,
@@ -35,6 +35,7 @@ const Contact = () => {
             setLoader(false);
         })
 
+        /* Clearing the form after submission. */
         setName('');
         setPhone('');
         setEmail('');
@@ -72,6 +73,7 @@ const Contact = () => {
                 </form>
                 <div className="map-container">
                     <h2>Find us at</h2>
+                    {/* Iframe element used to embed club location, src obtained from Google Maps */}
                     <iframe className="map" title="club location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.401816382714!2d72.86889221446135!3d19.04606305786317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf21727f6e19%3A0x473006136ad440dc!2sK.%20J.%20Somaiya%20Institute%20of%20Engineering%20and%20Information%20Technology!5e0!3m2!1sen!2sin!4v1660149227899!5m2!1sen!2sin" />
                 </div>
             </div>

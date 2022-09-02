@@ -2,6 +2,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
+/* A configuration object that is used to initialize the firebase app. */
 const firebaseConfig = {
     apiKey: "AIzaSyANFV2jskFDZzz7vYkyjGp4CVWqealnVF8",
     authDomain: "c-cube-project.firebaseapp.com",
