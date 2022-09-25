@@ -45,11 +45,13 @@ const Donate = () => {
       </div>
       {/* Preformatted text providing bank details of the club */}
       <pre className="bank-info">
-        NAME - VAMSHIVAT VOICE
+        NAME: VAMSHIVAT VOICE
         <br /><br />
-        ACCOUNT NUMBER - 739605500093
+        ACCOUNT NUMBER: 739605500093
         <br /><br />
-        IFSC CODE - ICIC0007396
+        IFSC CODE: ICIC0007396
+        <br /><br />
+        UPI ID: msvamshivatvoice.eazypay@icici
       </pre>
 
       <Footer />

@@ -76,7 +76,7 @@
 }
 
 .bank-info {
-    width:70%;
+    width:35rem;
     text-align: center;
     font-size: 1.2rem;
     font-family: 'Manrope';
@@ -111,8 +111,9 @@
         width: 64%;
     }
     .bank-info {
-        width: 80%;
-        font-size: 1.1rem;
+        width: 95%;
+        font-size: 1rem;
+        padding: 15px;
     }
     
 }
