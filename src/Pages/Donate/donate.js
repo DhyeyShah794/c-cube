@@ -21,7 +21,7 @@ const Donate = () => {
       </div>
       <div className="img-container">
         <img
-          src={require("../../Components/Images/image2.jpg")}
+          src={require("../../Components/Images/donate.png")}
           alt="Image1"
           className="donate-img"
         ></img>
