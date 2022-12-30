@@ -78,7 +78,6 @@ const Contact = () => {
                 <div className="map-box">
                 <iframe className="map" title="club location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.640759335346!2d73.880529!3d18.4546131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ebddef2c093d%3A0xd65f963bf1957024!2sVIIT%20VOICE!5e0!3m2!1sen!2shk!4v1663995353738!5m2!1sen!2shk" />
                 </div>
-                {/* <div className="details-container"> */}
                     <div className="box-c">
                         <h3 className="details-title">Contact Details</h3>
                         <div className="filled-c"></div>
@@ -89,8 +88,6 @@ const Contact = () => {
                         <br /><br />
                         Sagar Jangid:<br />+91 83692 87775
                     </pre>
-
-                {/* </div> */}
             </div>
 
             <Footer />

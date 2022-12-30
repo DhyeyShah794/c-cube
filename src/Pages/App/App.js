@@ -5,7 +5,7 @@ import About from '../About/about';
 import Donate from '../Donate/donate';
 import Contact from '../Contact/contact';
 import Events from '../Events/events';
-import { Route, Routes, Outlet } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 /**
  * Layout is a function that returns a div with a NavigationBar and children.
@@ -34,9 +34,7 @@ const App = () => {
                 <Route path="contact" element={<Contact />} />
                 <Route path="events" element={<Events />} />
                 </Routes>
-            </Layout>
-
-        
+            </Layout>  
     );
 }
 

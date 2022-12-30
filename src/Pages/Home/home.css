@@ -10,7 +10,7 @@ body {
 }
 
 .title {
-    margin: 17rem 0 0rem 2rem;
+    margin: 17rem 0 20rem 2rem;
 }
 
 .heading {
@@ -74,7 +74,7 @@ body {
     margin-bottom: 2rem;
     width: 0%;
     height: 2.5px;
-    left: 32%;
+    left: 34%;
     background-color: #3457D5;
     transition: 0.30s ease-out;
 }
@@ -84,7 +84,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 36%;
+    width: 32%;
     background-color: #3457D5;
     transition: 0.30s ease-out;
 }
